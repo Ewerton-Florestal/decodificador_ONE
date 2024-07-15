@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador e Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main class="main-container">
+        <header class="cabecalho">
+            <img src="img\images.png" alt="logo">
+            <h1>Mensagens Codificadas</h1>
+        </header>
+
+    <div class="container-input">
+        <div class="input">
+            <textarea id="input-texto" placeholder="Digite seu texto..."></textarea>
+            <p>ATENÇÃO: Apenas letras minúsculas e sem acentos</p>
+        </div>
+
+        <div id="output">
+            <img src="img\imagem2.png" alt="meninoazul">
+            <h2>Nenhum Mensagem encontrar</h2>
+            <span>Digite um texto que você deseja criptografar ou descriptografar</span>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <div class="container-bnt">
+            <button onclick="criptografar()" id="buttonone" class="botaoCriptografar">Criptografar</button>
+            <button onclick="descriptografar()" id="buttontwo" class="botaoDescriptografar">Descriptografar</button>
+        </div>
+    </div>
+    </main>
+
+    <footer class="rodape">
+        <span>Desenvolvido por Ewerton Pinheiro - 2024</span>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
