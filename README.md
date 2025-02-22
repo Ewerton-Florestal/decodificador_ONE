@@ -2,7 +2,7 @@
 ## Codificador e Decodificador - ALURA (ONE)
 
 ## 📒 Descrição
-Desafio proposto pela ALUNA em parceria com a ORACLE do curso ONE. Criar um site onde é possível codificar um texto e decoficar esse texto.
+Desafio proposto pela ALURA em parceria com a ORACLE do curso ONE. Criar um site onde é possível codificar um texto e decoficar esse texto.
 
 ## 🧐 Processo de Criação
 Para desenvolver o site, foi necessário utilizar o HTML, CSS e o JAVASCRIPT.
